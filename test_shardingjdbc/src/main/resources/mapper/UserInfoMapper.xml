@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljq.shardingjdbc.mapper.UserInfoMapper">
+   <insert id="insert" parameterType="com.ljq.shardingjdbc.entity.UserInfo">
+       insert into user_info(user_id,user_name,account,password) values(#{userId},#{userName},#{account},#{password})
+   </insert>
+</mapper>
