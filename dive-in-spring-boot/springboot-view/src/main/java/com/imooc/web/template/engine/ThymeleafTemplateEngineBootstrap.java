@@ -18,7 +18,7 @@ import java.io.IOException;
  * @author 小马哥
  * @since 2018/5/24
  */
-public class ThymeleafTemplateEngineBootstrap {
+public class  ThymeleafTemplateEngineBootstrap {
 
     public static void main(String[] args) throws IOException {
         // 构建引擎
